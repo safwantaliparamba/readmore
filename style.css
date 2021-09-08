@@ -1,0 +1,35 @@
+body{
+    font-family: monospace;
+    text-align: justify;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: rgb(18, 23,27 );
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+.text{
+    font-size: 24px;
+}
+.moretext{
+    display: none;
+}
+.read-more-btn{
+    padding:15px 60px;
+    background-color: rgb(149,170,197);
+    color: rgb(53,49,49);
+    bottom: none;
+    outline: none;
+    font-size: 20px;
+    cursor: pointer;
+    text-align:center;
+    
+}
+.text.show-more .moretext{
+    display: inline;
+}
+.text.show-more .dots{
+    display: none;
+}
